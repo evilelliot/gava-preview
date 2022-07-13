@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: #f9f9f9;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 50px;
+    color: #a6acec;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    width: 90%;
+}
+
+/* Classes */
+.centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    /*border: 1px solid rebeccapurple;*/
+}
+.container-small{
+    margin-top: 16px;
+}
+.image{
+    width: 30%;
+    margin-top: 30px;
+    float: left;
+}
+.text{
+    padding-top: 2%;
+    width: 70%;
+    float: right;
+}
+.input{
+    color: beige;
+    display: flex;
+    border: 4px solid #a6acec;
+    border-radius: 10px;
+    width: 85%;
+}
+input[type="email"]{
+    background-color: transparent;
+    margin: 0px;
+    padding: 7px 7px;
+    width: 90%;
+    color: inherit;
+    border: none;
+    border-right: none;
+    border-radius: inherit;
+}
+input[type="email"]::placeholder{
+    color: #bbb;
+}
+button[type="submit"]{
+    width: 10%;
+    border: none;
+    background-color: transparent;
+    border-radius: inherit;
+    color: #e877a8;
+    font-size: 1.2em;
+}
+button[type="submit"]:hover{
+    color: #a6acec;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
